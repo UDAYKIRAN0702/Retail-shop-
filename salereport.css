@@ -1,0 +1,82 @@
+.report-container {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    font-family: sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .new-badge {
+    background: red;
+    color: white;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 6px;
+  }
+  
+  .section {
+    margin-top: 24px;
+  }
+  
+  .section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .date-range {
+    display: flex;
+    gap: 16px;
+    margin: 10px 0;
+  }
+  
+  .date-range label {
+    font-size: 14px;
+    margin-bottom: 4px;
+    display: block;
+  }
+  
+  input[type="date"],
+  input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-green {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-red {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: gray;
+  }
+  

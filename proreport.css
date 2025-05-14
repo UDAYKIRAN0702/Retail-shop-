@@ -1,0 +1,47 @@
+.product-report {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f7f9fb;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+  }
+  
+  .product-report h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .product-report label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+  }
+  
+  .product-report select,
+  .product-report input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .product-report button {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .product-report button:hover {
+    background-color: #0056b3;
+  }
+  

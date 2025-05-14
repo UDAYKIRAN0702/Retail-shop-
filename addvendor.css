@@ -1,0 +1,126 @@
+.vendor-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #e8e8e8;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .vendor-container h2 {
+    text-align: center;
+    color: #050505;
+    margin-bottom: 20px;
+  }
+  
+  .vendor-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+  }
+  .page-container {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .vendor-form input,
+  .vendor-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #fff;
+  }
+  
+  .vendor-form textarea {
+    resize: vertical;
+    min-height: 60px;
+    grid-column: span 2;
+  }
+  
+  .form-buttons {
+    grid-column: span 2;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .form-buttons button {
+    padding: 10px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.2s ease;
+  }
+  
+  .form-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-bar {
+    margin-top: 30px;
+    text-align: right;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .vendor-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  .vendor-table th,
+  .vendor-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .vendor-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .vendor-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .vendor-container {
+    position: relative;
+    padding: 20px;
+  }
+  

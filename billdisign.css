@@ -1,0 +1,80 @@
+.invoice-a4 {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #333;
+  }
+  
+  .invoice-a4 h2 {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 18px;
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  .invoice-a4 {
+    position: relative;
+    padding: 40px;
+    background: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+    
+  .invoice-a4 p {
+    margin: 2px 0;
+    font-size: 14px;
+  }
+  
+  .invoice-meta {
+    margin-top: 20px;
+    border-top: 1px dashed #aaa;
+    padding-top: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .invoice-summary {
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #aaa;
+    padding-top: 10px;
+  }
+  
+  .signature {
+    text-align: right;
+    margin-top: 50px;
+  }
+  
